@@ -1,0 +1,345 @@
+{ "venues":[
+
+
+{
+    "id": 					"0",
+    "name": 				"Tabernacle",
+    "mainUrl":				"http://www.tabernacleatl.com/",
+    "scheduleUrl": 			"https://www.livenation.com/venue/KovZpaFEZe/tabernacle-events",
+    "common": 		        "livenation"
+},
+{
+    "id": 					"1",
+    "name": 				"The Earl",
+    "mainUrl":				"http://www.badearl.com",
+    "scheduleUrl": 			"http://www.badearl.com",
+    "listingSelector": 		".cl-layout__item",
+    "ticketLinkSelector": 	".show-btn .cl-element-link__anchor",
+    "detailLinkSelector": 	".more-info-btn .cl-element-link__anchor",
+    "daySelector": 		    ".show-listing-date",
+    "monthSelector": 		".show-listing-date",
+    "dayRegex": 			"\\d+(?=,)", 
+    "monthRegex": 			"(?<=,).\\w+",
+    "timeSelector": 		".show-listing-time:nth-child(2)",
+    "timeRegex": 			"^\\S+",
+    "minPriceSelector": 	".show-listing-price:nth-child(1)",
+    "minPriceRegex": 		"\\d+",
+    "maxPriceSelector": 	".show-listing-price:nth-child(2)",
+    "maxPriceRegex": 		"\\d+",
+    "headlinerSelector": 	".show-listing-headliner",
+    "openerSelector": 		".show-listing-support",
+    "openerRegex": 			""
+},
+{
+    "id": 					"2",
+    "name": 				"Variety Playhouse",
+    "mainUrl":				"http://www.variety-playhouse.com/",
+    "scheduleUrl": 			"https://www.axs.com/venues/102442/variety-playhouse-atlanta-tickets",
+    "common": 		        "axs"
+},
+{
+    "id": 					"3",
+    "name": 				"Smith's Olde Bar",
+    "mainUrl":				"https://www.smithsoldebar.com/",
+    "scheduleUrl": 			"https://www.smithsoldebar.com/",
+    "listingSelector": 		"div.relative.rounded-lg.border",
+    "ticketLinkSelector": 	".text-right.w-full a",
+    "daySelector": 		    "T>.text-base.text-left.text-gray-100",
+    "monthSelector": 		"T>.text-base.text-left.text-gray-100",
+    "dayRegex": 			"[0-9]+(?=,\\s)", 
+    "monthRegex": 			"(?<=,\\s)[a-zA-Z]+",
+    "timeSelector": 		"T>.text-base.text-left.text-gray-100",
+    "timeRegex": 			"[0-9]+:.*(?=$)",
+    "headlinerSelector": 	".text-center.text-base.font-bold",
+    "headlinerDivider": 	"/"
+},
+{
+    "id": 					"4",
+    "name": 				"Eddie's Attic",
+    "mainUrl":				"http://eddiesattic.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/d/ga--atlanta/%22eddie's-attic%22/?page=1",
+    "common": 		        "eventbrite_search"
+},
+{
+    "id": 					"5",
+    "name": 				"Terminal West",
+    "mainUrl":				"https://terminalwestatl.com/",
+    "scheduleUrl": 			"https://www.axs.com/venues/124883/terminal-west-atlanta-tickets",
+    "common": 		        "axs"
+},
+{
+    "id": 					"6",
+    "name": 				"District",
+    "mainUrl":				"https://districtatlanta.com/",
+    "scheduleUrl": 			"https://www.seetickets.us/wafform.aspx?_act=fullsearchv3&v3=yes&s=District",
+    "common": 		        "seetickets"
+},
+{
+    "id": 					"7",
+    "name": 				"The Roxy",
+    "mainUrl":				"http://www.cocacolaroxy.com/",
+    "scheduleUrl": 			"https://www.livenation.com/venue/KovZ917ACc7/coca-cola-roxy-events",
+    "common": 		        "livenation"
+},
+{
+    "id": 					"8",
+    "name": 				"Vinyl / Center Stage / The Loft",
+    "mainUrl":				"http://www.centerstage-atlanta.com/",
+    "scheduleUrl": 			"http://www.centerstage-atlanta.com/",
+    "listingSelector": 		".event-item",
+    "ticketLinkSelector": 	".event-button-wrap a.event-button",
+    "detailLinkSelector": 	".event-link",
+    "daySelector": 		    ".event-date",
+    "monthSelector": 		".event-date",
+    "dayRegex": 			"[0-9]+", 
+    "monthRegex": 			"[a-zA-Z]+(?=\\s[0-9])",
+    "headlinerSelector": 	".event-name",
+    "moreLinkSelector":     ".view-more-shows-wrap a"
+},
+{
+    "id": 					"9",
+    "name": 				"The Masquerade",
+    "mainUrl":				"http://www.masqueradeatlanta.com",
+    "scheduleUrl": 			"http://www.masqueradeatlanta.com",
+    "listingSelector": 		"article.event",
+    "ticketLinkSelector": 	".event-ticketInfo a.btn-purple",
+    "detailLinkSelector": 	".event-ticketInfo a.btn-grey",
+    "daySelector": 		    ".eventStartDate .eventStartDate__date",
+    "monthSelector": 		".eventStartDate .eventStartDate__month",
+    "timeSelector": 		".event-location .time-show",
+    "timeRegex": 			"(?<=oors).*?(?=\\/)",
+    "minPriceSelector": 	".event-location .time-show",
+    "minPriceRegex": 		"(?<=\\$)\\d*",
+    "headlinerSelector": 	".eventHeader__title",
+    "headlinerDivider": 	"/",
+    "openerSelector": 		".eventHeader__support ",
+    "openerDivider":		"and|,"
+},
+{
+    "id": 					"10",
+    "name": 				"Aisle 5",
+    "mainUrl":				"https://www.aisle5atl.com",
+    "scheduleUrl": 			"https://www.seetickets.us/wafform.aspx?_act=fullsearchv3&v3=yes&s=aisle%205",
+    "common": 		        "seetickets"
+},
+{
+    "id": 					"11",
+    "name": 				"Buckhead Theatre",
+    "mainUrl":				"http://www.thebuckheadtheatreatl.com/",
+    "scheduleUrl": 			"https://www.livenation.com/venue/KovZpZAJAllA/buckhead-theatre-events",
+    "common": 		        "livenation"
+},
+{
+    "id": 					"12",
+    "name": 				"529",
+    "mainUrl":				"http://529atlanta.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/d/ga--atlanta/529/?page=1",
+    "common":               "eventbrite_search"
+},
+{
+    "id": 					"13",
+    "name": 				"Gas South Arena",
+    "mainUrl":				"https://www.gassouthdistrict.com/events",
+    "scheduleUrl": 			"https://www.axs.com/venues/101263/gas-south-arena-duluth-tickets?skin=atlantagladiators",
+    "common":               "axs"
+},
+{
+    "id": 					"14",
+    "name": 				"Chastain Park (Cadence)",
+    "mainUrl":				"https://www.chastainparkamp.com/",
+    "scheduleUrl": 			"https://www.livenation.com/venue/KovZpZAEkAaA/cadence-bank-amphitheatre-at-chastain-park-events",
+    "common": 		        "livenation"
+},
+{
+    "id": 					"15",
+    "name": 				"City Winery",
+    "mainUrl":				"https://citywinery.com/atlanta/",
+    "scheduleUrl": 			"https://citywinery.com/atlanta/tickets.html",
+    "listingSelector": 		".search-results-container .result-box-item",
+    "detailLinkSelector": 	".item-name a",
+    "daySelector": 			".start-date",
+    "monthSelector": 		".start-date",
+    "dayRegex": 			"\\d+(?=,)", 
+    "monthRegex": 			"(?<=,\\s)[a-zA-Z]+",
+    "timeSelector": 		".start-date",
+    "timeRegex": 			"\\d+:\\d+",
+    "headlinerSelector": 	".item-name a"
+},
+{
+    "id": 					"16",
+    "name": 				"Rialto Center",
+    "mainUrl":				"https://rialto.gsu.edu/",
+    "scheduleUrl": 			"https://events.rialtocenter.gsu.edu/Online/default.asp",
+    "listingSelector": 		".item-description",
+    "detailLinkSelector": 	".item-name a",
+    "daySelector": 			".start-date",
+    "monthSelector": 		".start-date",
+    "dayRegex": 			"\\d\\d?(?=,)", 
+    "monthRegex": 			"\\w+(?= \\d\\d?,)",
+    "headlinerSelector": 	".item-name a"
+},
+{
+    "id": 					"17",
+    "name": 				"Believe Music Hall",
+    "mainUrl":				"https://believeatlanta.com",
+    "scheduleUrl": 			"https://www.eventbrite.com/o/believe-music-hall-17105076211",
+    "common": 		        "eventbrite_organizer"
+},
+{
+    "id": 					"18",
+    "name": 				"Ameris Bank Amphitheatre",
+    "mainUrl":				"https://www.livenation.com/venues/14312/ameris-bank-amphitheatre",
+    "scheduleUrl": 			"https://www.livenation.com/venues/14312/ameris-bank-amphitheatre",
+    "common": 		        "livenation"
+},
+{
+    "id": 					"19",
+    "name": 				"Fox Theatre",
+    "mainUrl":				"https://www.foxtheatre.org",
+    "scheduleUrl": 			"https://www.foxtheatre.org/events",
+    "listingSelector": 		".eventItem",
+    "ticketLinkSelector": 	".buttons .tickets",
+    "detailLinkSelector": 	".info .title a",
+    "daySelector": 			".date .m-date__day",
+    "monthSelector": 		".date .m-date__month",
+    "headlinerSelector": 	".info .title a"
+},
+{
+    "id": 					"20",
+    "name": 				"St. James",
+    "mainUrl":				"https://stjamesliveatl.com",
+    "scheduleUrl": 			"https://www.stjamesliveatl.com/see-all-shows",
+    "listingSelector": 		".calendar-list-event",
+    "ticketLinkSelector": 	".ticket-link-button",
+    "daySelector": 			".calendar-list-event__date__day",
+    "monthSelector": 		".calendar-list-event__date__month",
+    "timeSelector": 		"td:nth-child(1)",
+    "timeRegex": 			"(?<=SHOW\\s).*?(?=\\s)",
+    "headlinerSelector": 	".calendar-list-event__name"
+},
+{
+    "id": 					"21",
+    "name": 				"Cobb Energy Center",
+    "mainUrl":				"https://www.cobbenergycentre.com/",
+    "scheduleUrl": 			"https://www.cobbenergycentre.com/events",
+    "listingSelector": 		".eventItem",
+    "ticketLinkSelector": 	"a.tickets",
+    "detailLinkSelector": 	".title a",
+    "daySelector": 		    ".m-date__day",
+    "monthSelector": 		".m-date__month",
+    "headlinerSelector": 	".title a"
+},
+{
+    "id": 					"22",
+    "name": 				"StateFarm Arena",
+    "mainUrl":				"https://www.statefarmarena.com/",
+    "scheduleUrl": 			"https://www.statefarmarena.com/events",
+    "listingSelector": 		".eventItem",
+    "ticketLinkSelector": 	"a.tickets",
+    "detailLinkSelector": 	".title a",
+    "daySelector": 		    ".m-date__day",
+    "monthSelector": 		".m-date__month",
+    "headlinerSelector": 	".title a"
+},
+{
+    "id": 					"23",
+    "name": 				"The Eastern",
+    "mainUrl":				"https://www.easternatl.com/",
+    "scheduleUrl": 			"https://www.axs.com/venues/127931/the-eastern-atlanta-tickets",
+    "common": 		        "axs"
+},
+{
+    "id": 					"24",
+    "name": 				"37 Main",
+    "mainUrl":				"https://avondale.37main.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/o/37-main-30662866026",
+    "common": 		        "eventbrite_organizer"
+},
+{
+    "id": 					"25",
+    "name": 				"Apache XLR",
+    "mainUrl":				"https://apachexlr.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/o/apache-xlr-13626320193",
+    "common": 		        "eventbrite_organizer"
+},
+{
+    "id": 					"26",
+    "name": 				"Tounge & Groove",
+    "mainUrl":				"http://www.tandgonline.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/o/tongue-amp-groove-4990866211",
+    "common": 		        "eventbrite_organizer"
+},
+{
+    "id": 					"27",
+    "name": 				"Red Light Cafe",
+    "mainUrl":				"http://redlightcafe.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/o/red-light-cafe-3215097236",
+    "common": 		        "eventbrite_organizer"
+},
+{
+    "id": 					"28",
+    "name": 				"Domaine",
+    "mainUrl":				"https://www.domaineatl.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/o/domaine-atlanta-23445348604",
+    "common": 		        "eventbrite_organizer"
+},
+{
+    "id": 					"29",
+    "name": 				"Madlife Stage (Woodstock)",
+    "mainUrl":				"http://madlifestageandstudios.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/o/madlife-stage-amp-studios-23372120571",
+    "common": 		        "eventbrite_organizer"
+},
+{
+    "id": 					"30",
+    "name": 				"District",
+    "mainUrl":				"https://districtatlanta.com/",
+    "scheduleUrl": 			"https://www.eventbrite.com/d/ga--atlanta/%22district-atlanta%22/?page=1",
+    "common":               "eventbrite_search"
+},
+{
+    "id": 					"31",
+    "name": 				"Venkman's",
+    "mainUrl":				"http://venkmans.com/",
+    "scheduleUrl": 			"https://www.freshtix.com/organizations/venkmans",
+    "common":               "freshtix"
+},
+{
+    "id": 					"32",
+    "name": 				"Star Bar",
+    "mainUrl":				"https://www.starbaratl.bar/",
+    "scheduleUrl": 			"https://www.freshtix.com/organizations/StarBarATL",
+    "common":               "freshtix"
+},
+{
+    "id": 					"33",
+    "name": 				"Red Clay Theater (Duluth)",
+    "mainUrl":				"https://eddieowenpresents.com/",
+    "scheduleUrl": 			"https://www.etix.com/ticket/v/12848/eddie-owen-presents-live-at-the-red-clay-music-foundry",
+    "common":               "etix"
+},
+{
+    "id": 					"34",
+    "name": 				"Sweetwater Bar And Grill",
+    "mainUrl":				"http://www.sweetwaterbarandgrill.com/live-music/",
+    "scheduleUrl": 			"https://www.reverbnation.com/venue/sweetwaterbargrill",
+    "common":               "reverbnation"
+},
+{
+    "id": 					"35",
+    "name": 				"Symphony Hall",
+    "mainUrl":				"https://www.aso.org/events",
+    "scheduleUrl": 			"https://www.aso.org/events",
+    "listingSelector": 		".calendar_event_list div.hasEvent",
+    "detailLinkSelector": 	".desc h3 a",
+    "daySelector": 		    "A[data-fulldate]S",
+    "monthSelector": 		"A[data-fulldate]S",
+    "dayRegex": 			"\\d+", 
+    "monthRegex": 			"(?<=-)\\d+",
+    "timeSelector": 		".desc .showings.time",
+    "timeRegex": 			"\\d+:\\d+",
+    "headlinerSelector": 	".desc h3 a"
+}
+
+
+]}

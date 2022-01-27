@@ -1,0 +1,128 @@
+.concert-listing {
+  min-width:300px;
+  max-width: 800px;
+  margin: .5em auto;
+}
+.concert-listing-inner {
+  padding:1em 1em;
+  overflow:hidden;
+  background:#FFFFFF;
+  margin: 0 .5em;
+  -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.25); 
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.25);
+  border-radius: 4px;
+}
+.listingContent.row {
+  position: relative;
+}
+
+.artists, .details {
+  list-style-type: none;
+  margin-bottom:0;
+  padding: 0;
+}
+.artists li, .details li {
+  margin-bottom:.2em;
+}
+.artists li {
+  cursor:pointer;
+  padding: 0px 4px;
+  border-radius: 6px;
+}
+.artists li.active {
+  background: #EEEEEE;
+}
+
+.artists .icon, .details .icon {
+  margin-right:.35em;
+}
+.artists .icons {
+  display: inline;
+  width: 25px;
+  overflow: hidden;
+}
+.artists li.active .icons {
+  width: 75px;
+  -webkit-transition: width 10s ease-in-out;
+  -moz-transition: width 10s ease-in-out;
+  -o-transition: width 10s ease-in-out;
+  transition: width 10s ease-in-out;
+}
+
+.icon-play {
+  display: inline-flex;
+}
+.preview-playing .active .icon-play {
+  display: none;
+}
+
+.icon-pause {
+  display: none;
+}
+.preview-playing .active .icon-pause {
+  display: inline-flex;
+}
+
+.icon-next {
+  display: none;
+}
+.active .icon-next {
+  display: inline-flex;
+}
+
+.headliner {
+  font-weight:bold;
+}
+.concert-listing .truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.links {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right:8px;
+}
+.links a {
+  display: inline-block;
+  margin-right:.35em;
+}
+.details .link-margin-0 {
+  margin-right: 0px;
+}
+.details .link-margin-1 {
+  margin-right: 28px;
+}
+.details .link-margin-2 {
+  margin-right: 56px;
+}
+
+@media only screen and (max-width: 575px) {
+  .concert-listing {
+      padding:.5em .5em;
+      margin:.5em;
+  }
+  .details {
+    margin-top:.25em;
+    padding-top:.45em;
+    border-top: 2px solid #EEEEEE;
+  }
+  
+  .artists .link-margin-0 {
+    margin-right: 0px;
+  }
+  .artists .link-margin-1 {
+    margin-right: 28px;
+  }
+  .artists .link-margin-2 {
+    margin-right: 56px;
+  }
+  .details .link-margin-1 {
+    margin-right: 0px;
+  }
+  .details .link-margin-2 {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,33 @@
+#concert-list {
+  padding:25px 0 10px 0;
+  width: 100%;
+}
+.concert-date {
+  overflow: hidden;
+}
+
+#data-message {
+  margin: 6em auto 0 auto;
+  width: 200px;
+  height: 75px;
+  text-align: center;
+  position: relative;
+}
+#data-message h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #888888;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width:100%;
+}
+
+
+@media only screen and (max-width: 575px) {
+  
+  .concert-date-header {
+    padding-left: 2em;
+  }
+}

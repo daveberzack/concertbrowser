@@ -1,0 +1,29 @@
+#app {
+  display:flex;
+  justify-content: center;
+  /*background-image: linear-gradient(90deg, #000000 25%, #333333 25%, #333333 50%, #000000 50%, #000000 75%, #333333 75%, #333333 100%);
+  background-size: 8.00px 8.00px;*/
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+  border-color:#666666;
+}
+
+::placeholder {
+  color: #CCCCCC !important;
+  opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FF0000 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FF0000 !important;
+}
+
+.hidden {
+  opacity: 0;
+}

@@ -1,0 +1,24 @@
+.icon {
+  overflow:hidden;
+  display:inline-flex;
+  width:1.2em;
+  height:1.2em;
+  top:.25em;
+  position:relative;
+}
+.icon svg {
+  width:1.2em;
+  height:1.2em;
+}
+
+.icon-link {
+  filter: invert(11%) sepia(98%) saturate(5024%) hue-rotate(359deg) brightness(74%) contrast(111%);
+}
+
+.icon-link:hover {
+  filter: invert(7%) sepia(99%) saturate(6864%) hue-rotate(355deg) brightness(110%) contrast(130%);
+}
+
+.icon-grey {
+  filter: invert(91%) sepia(0%) saturate(470%) hue-rotate(251deg) brightness(93%) contrast(87%);
+}

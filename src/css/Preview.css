@@ -1,0 +1,43 @@
+#preview {
+  width:400px;
+  height:200px;
+  position:absolute;
+  top:10px;
+  right:10px;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px;
+}
+#preview iframe {
+  width: 400px;
+  height: 200px;
+  opacity: 0;
+}
+#preview.shown iframe {
+  opacity: 1;
+}
+
+#preview-message {
+  width:400px;
+  height:200px;
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+#preview-message img {
+  height: 100%;
+}
+
+@media only screen and (max-width: 575px) {
+  #preview {
+    display:none;
+    width:100%;
+    border-radius: 0px;
+    top:0px;
+    right:0px;
+  }
+  
+  #preview.shown {
+    display:flex;
+  }
+}

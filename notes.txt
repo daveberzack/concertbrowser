@@ -1,0 +1,16 @@
+TODO:
+
+write tests
+
+selenium: use venue url for detail link, if none found
+repeated listings (martin sexton, etc)
+
+
+later......
+animate icons width
+display special characters
+instruction/intro modal
+add venue filter
+remember venue selection
+next button (check eddies attic)
+max price regex?
