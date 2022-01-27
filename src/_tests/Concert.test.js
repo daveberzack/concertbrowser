@@ -50,16 +50,16 @@ test('show values', () => {
     expect(openers[0].innerHTML).toBe("Opener1"); 
     expect(openers[1].innerHTML).toBe("Opener2"); 
 
-    const time = container.querySelector('.time').container;
+    const time = container.querySelector('.time');
     expect(time).not.toBeNull(); 
 
-    const price = container.querySelector('.price').container;
+    const price = container.querySelector('.price');
     expect(price).not.toBeNull(); 
     
-    const infoLink = container.querySelector('.infoLink').container;
+    const infoLink = container.querySelector('.infoLink');
     expect(infoLink).not.toBeNull(); 
     
-    const ticketLink = container.querySelector('.ticketLink').container;
+    const ticketLink = container.querySelector('.ticketLink');
     expect(ticketLink).not.toBeNull(); 
 }); 
 
@@ -72,15 +72,15 @@ test('show no values', () => {
     const openers = container.querySelectorAll('.opener .artist');
     expect(openers.length).toBe(0); 
 
-    const time = container.querySelector('.time').container;
+    const time = container.querySelector('.time');
     expect(time).toBeNull(); 
 
-    const price = container.querySelector('.price').container;
+    const price = container.querySelector('.price');
     expect(price).toBeNull(); 
     
-    const infoLink = container.querySelector('.infoLink').container;
+    const infoLink = container.querySelector('.infoLink');
     expect(infoLink).toBeNull(); 
     
-    const ticketLink = container.querySelector('.ticketLink').container;
+    const ticketLink = container.querySelector('.ticketLink');
     expect(ticketLink).toBeNull(); 
 }); 
