@@ -1,11 +1,11 @@
 
 ## About this project
 
-This is the front end for a local concert calendar. It pulls data from a static json, which is compiled locally by a Java/Selenium scraper. It's primary features are a streamlined UI and the ability for users to preview artists. The preview is imperfect - it plays YouTube videos based on a simple search for the artist's name, which works about 90-95% of the time.
+This is the front end for a local concert calendar. It pulls data from a static json, which is compiled locally by a Java/Selenium scraper. Its primary features are a streamlined UI and the ability for users to preview artists. The preview is imperfect - it plays YouTube videos based on a simple search for the artist's name, which works about 90-95% of the time.
 
 ## Work in Progress notes
 
-This is a work in progress, shared to demonstrate a nuts-and-bolts understanding of function-based, componentized React with Hooks, with unit testing. I am aware of some flaws, and will be improving it as time allows.
+This is a work in progress, shared to demonstrate a nuts-and-bolts understanding of function-based, componentized React with Hooks, and basic unit testing. I am aware of some flaws, and will be improving this as time allows.
 
 - Testing is fairly rudimentary. At some point, I will make the tests more robust and include tests for the Preview component, mocking the YouTube API
 
