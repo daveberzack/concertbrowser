@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/concertbrowser/static/css/main.2e1c8465.chunk.css",
+    "main.js": "/concertbrowser/static/js/main.6bedbb14.chunk.js",
+    "main.js.map": "/concertbrowser/static/js/main.6bedbb14.chunk.js.map",
+    "runtime-main.js": "/concertbrowser/static/js/runtime-main.8ede6429.js",
+    "runtime-main.js.map": "/concertbrowser/static/js/runtime-main.8ede6429.js.map",
+    "static/css/2.89f067aa.chunk.css": "/concertbrowser/static/css/2.89f067aa.chunk.css",
+    "static/js/2.1a07b353.chunk.js": "/concertbrowser/static/js/2.1a07b353.chunk.js",
+    "static/js/2.1a07b353.chunk.js.map": "/concertbrowser/static/js/2.1a07b353.chunk.js.map",
+    "index.html": "/concertbrowser/index.html",
+    "precache-manifest.381cf2bc0113d8d40bfbeb5291dc94b8.js": "/concertbrowser/precache-manifest.381cf2bc0113d8d40bfbeb5291dc94b8.js",
+    "service-worker.js": "/concertbrowser/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/concertbrowser/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.2e1c8465.chunk.css.map": "/concertbrowser/static/css/main.2e1c8465.chunk.css.map",
+    "static/js/2.1a07b353.chunk.js.LICENSE.txt": "/concertbrowser/static/js/2.1a07b353.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ede6429.js",
+    "static/css/2.89f067aa.chunk.css",
+    "static/js/2.1a07b353.chunk.js",
+    "static/css/main.2e1c8465.chunk.css",
+    "static/js/main.6bedbb14.chunk.js"
+  ]
+}
